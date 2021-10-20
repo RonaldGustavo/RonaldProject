@@ -1,0 +1,234 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #364F6B;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky; 
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #364F6B ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;  
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+/* #job {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #364F6B;
+    margin-left: 200px;
+    padding: 0px;
+    margin-top: 0px;
+} */
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 59px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364F6B;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    line-height: 50px;
+}
+
+.button-linkedin {
+    background-color: gray;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.button-linkedin:hover {
+    text-decoration: none;
+    background-color: blue;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.slider {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    margin-left: 120px;
+}
+
+.images {
+    display: flex;
+    width: 100%;
+}
+
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+
+.images input {
+    display: none;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid black 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots label:hover {
+    background: gray;
+}
+
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+
+#project1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#project2 {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#contact {
+    background-color: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    margin-top: 50px;
+}
+
+.footer-section p {
+    padding: 0px;
+    margin: 0px;
+}
