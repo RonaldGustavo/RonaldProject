@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="STim logo.png">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="logo">
+        <img src="STim logo.png" alt="" width="100vw">
+    </div>
+
+    <div class="paymentform">
+        <h1 id="judulpay">Payment</h1>
+        <form action="notif.html">
+            <label for="fullname">FullName : </label>
+            <input type="text" name="fullname" id="fullname" placeholder="masukan FullName" required>
+           <p></p>
+            <label for="username">Username : </label>
+            <input type="text" name="username" id="username" placeholder="masukan username" required>
+            <p></p>
+            <label for="email">email : </label>
+            <input type="email" name="email" id="email" placeholder="masukan email" required>
+            <p></p>
+            <label for="password">password : </label>
+            <input type="password" name="password" id="password" placeholder="masukan password" required>
+            <p></p>
+            <label for="country">country : </label>
+            <select name="country" id="country" required >
+                <option value="" selected disabled id="first-option">select country</option>
+                <option value="Id">Indonesia</option>
+                <option value="jp">Jepang</option>
+                <option value="kr">korea</option>
+            </select>
+            <p></p>
+            <label for="radio">pilih Pembayaran : </label>
+            <div class="radio-buttons">
+            <input type="radio" name="payment" id="" value="cash"> cash
+            <input type="radio" name="payment" id="" value="debit"> debit
+             </div>
+             <p></p>
+             <label for="exp">Exp : </label>
+             <input type="text" name="exp" id="exp" placeholder="masukan exp ex: 01/09" required>
+             <p></p>
+             <input type="submit" name="" id="buttonpay" value="Payment" onclick="validate()" > 
+        </form>
+    </div>
+</body>
+</html>
